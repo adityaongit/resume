@@ -1,6 +1,10 @@
 # Aditya Jindal Resume
 
-Welcome to my resume repository. This repository contains my resume written in TeX, with reusable section partials and a shared formatting layer for easier maintenance.
+This repository contains my resume in TeX, with a YAML source-of-truth layer that generates both the visible resume sections and the embedded metadata files.
+
+If you are using this repository for the first time, start with the user-facing guide:
+
+- [`USER_GUIDE.md`](./USER_GUIDE.md)
 
 ## Prerequisites
 
@@ -21,7 +25,7 @@ Welcome to my resume repository. This repository contains my resume written in T
 > [!NOTE]
 > This repository uses a custom Docker image for compiling the resume, ensuring consistency and reproducibility across environments.
 
-## How to Use
+## Quick Start
 
 <p>1. <strong>Clone the repository</strong>:</p>
 
@@ -61,30 +65,6 @@ make compile
 
 > [!NOTE]
 > `make compile` and `make build` regenerate all derived artifacts automatically before compiling.
-
-## Authoring Flow
-
-Edit [`resume.yaml`](./resume.yaml) only.
-
-Supported inline formatting inside prose fields such as bullets and achievements:
-
-- `**bold**`
-- `_italic_`
-- `[label](https://example.com)`
-
-Generated artifacts:
-
-- [`sections/header.tex`](./sections/header.tex)
-- [`sections/experience.tex`](./sections/experience.tex)
-- [`sections/skills.tex`](./sections/skills.tex)
-- [`sections/projects.tex`](./sections/projects.tex)
-- [`sections/achievements.tex`](./sections/achievements.tex)
-- [`sections/education.tex`](./sections/education.tex)
-- [`generated/metadata.tex`](./generated/metadata.tex)
-- [`resume.json`](./resume.json)
-- [`schema.json`](./schema.json)
-
-These files are regenerated automatically by `make compile` and `make build`. Do not edit them manually.
 
 ## Make Commands
 
@@ -157,10 +137,12 @@ pdfdetach -list Aditya_SWE_Resume_2YOE.pdf
 
 ## Customization
 
-- **Content**: Update [`resume.yaml`](./resume.yaml) and regenerate the derived files.
+- **Content**: Update [`resume.yaml`](./resume.yaml).
 - **Formatting**: Modify [`formatting.sty`](./formatting.sty) to change appearance and layout.
 - **Document wiring**: [`main.tex`](./main.tex) controls section order and PDF attachments.
-- **Structured data**: [`resume.json`](./resume.json), [`schema.json`](./schema.json), and [`generated/metadata.tex`](./generated/metadata.tex) are derived from [`resume.yaml`](./resume.yaml).
+- **Structured data**: [`resume.json`](./resume.json), [`schema.json`](./schema.json), and [`generated/metadata.tex`](./generated/metadata.tex) are generated from [`resume.yaml`](./resume.yaml).
+
+For step-by-step editing and verification instructions, see [`USER_GUIDE.md`](./USER_GUIDE.md).
 
 ## Releases
 
