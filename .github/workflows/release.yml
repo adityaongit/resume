@@ -8,6 +8,8 @@ on:
       - "**.cls"
       - "**.sty"
       - "**.json"
+      - "**.yaml"
+      - "scripts/**"
       - ".docker/**"
   workflow_dispatch:
 
@@ -31,6 +33,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/v4.45.1/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
@@ -40,12 +47,8 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Update metadata dates
-        run: |
-          DATE=$(date +%Y-%m-%d)
-          YEAR=$(date +%Y)
-          sed -i "s/\"lastModified\": \".*\"/\"lastModified\": \"$DATE\"/" resume.json
-          sed -i "s/\"dateModified\": \".*\"/\"dateModified\": \"$YEAR\"/" schema.json
+      - name: Generate resume artifacts
+        run: python3 scripts/generate_resume.py
 
       - name: Set build date
         id: date
