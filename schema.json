@@ -95,6 +95,16 @@
       "workExample": [
         {
           "@type": "SoftwareSourceCode",
+          "name": "IdxBeaver - IndexedDB Client",
+          "url": "https://indexbeaver.vercel.app",
+          "programmingLanguage": [
+            "Chrome Extension",
+            "IndexedDB",
+            "DevTools"
+          ]
+        },
+        {
+          "@type": "SoftwareSourceCode",
           "name": "Soteira - Real Time Video Inference",
           "url": "https://github.com/adityaongit/soteira",
           "programmingLanguage": [
@@ -231,16 +241,21 @@
             {
               "@type": "ListItem",
               "position": 1,
-              "name": "Soteira - Real Time Video Inference"
+              "name": "IdxBeaver - IndexedDB Client"
             },
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Pair Code - Developer Platform"
+              "name": "Soteira - Real Time Video Inference"
             },
             {
               "@type": "ListItem",
               "position": 3,
+              "name": "Pair Code - Developer Platform"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
               "name": "SplitWatt - Electricity Bill Splitter"
             }
           ]

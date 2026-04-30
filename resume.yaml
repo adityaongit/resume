@@ -71,12 +71,6 @@ experience:
       - Contributed to an **AI-powered web crawler**, integrating GPT, Gemini, Claude,
         and **Qdrant for RAG + Vector search**, improving structured data extraction from
         complex websites.
-      - Delivered an image augmentation service leveraging **Moore's Voting** and **BiRefNet**,
-        correcting aspect ratios and removing backgrounds for over **70% of production
-        images**.
-      - Designed a self-serve internal tool for product team to generate **SEO-optimized
-        content** via a **UI-driven workflow**, streamlining publishing and **reducing
-        turnaround time**.
     company: Edra Labs -- BrowserStack
     end_date: null
     end_display: Present
@@ -166,6 +160,20 @@ pdf:
   subject: Software Engineer Resume - Go, TypeScript, AI Products, Backend, Full Stack
 projects:
   - bullets:
+      - Shipped a **Chrome DevTools extension** that turns Chrome's read-only IndexedDB
+        inspector into a full **database client**.
+      - Lets developers **query, edit, and export** browser-stored data with **MongoDB-style
+        filters** -- live on the **Chrome Web Store**.
+    keywords:
+      - Chrome Extension
+      - IndexedDB
+      - DevTools
+    link_label: Live Link
+    name: IdxBeaver - IndexedDB Client
+    roles:
+      - Creator
+    url: https://indexbeaver.vercel.app
+  - bullets:
       - Built a real-time video inference engine for live natural-language prompts, achieving
         **~150 ms CPU inference**.
       - Implemented a **4-gate pipeline** (motion, scene change, object entry, NLP) using
@@ -200,8 +208,6 @@ projects:
         distribution and UPI payment integration.
       - Reached **129 countries** with **9K+ impressions** at **5.5% CTR** -- ~3x industry
         average -- with zero paid acquisition.
-      - Achieved **100/100 Lighthouse** across all 4 categories via Next.js bundle optimization
-        and strict security headers.
     keywords:
       - Next.js
       - Better Auth

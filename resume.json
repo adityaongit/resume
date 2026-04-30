@@ -103,6 +103,18 @@
   ],
   "projects": [
     {
+      "name": "IdxBeaver - IndexedDB Client",
+      "url": "https://indexbeaver.vercel.app",
+      "roles": [
+        "Creator"
+      ],
+      "keywords": [
+        "Chrome Extension",
+        "IndexedDB",
+        "DevTools"
+      ]
+    },
+    {
       "name": "Soteira - Real Time Video Inference",
       "url": "https://github.com/adityaongit/soteira",
       "roles": [
@@ -144,6 +156,6 @@
   "meta": {
     "canonical": "https://github.com/adityaongit/resume",
     "version": "v1.0.0",
-    "lastModified": "2026-03-07"
+    "lastModified": "2026-05-01"
   }
 }
