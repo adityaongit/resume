@@ -183,7 +183,7 @@ If the app is running inside a container or on a machine without local git crede
 
 ```sh
 export GITHUB_TOKEN=...
-export GITHUB_OWNER=adityaongit
+export GITHUB_OWNER=madhav008
 export GITHUB_REPO=resume
 export GITHUB_BRANCH=main
 ```
@@ -197,7 +197,7 @@ If these variables are not set, the app will use local git mode instead.
 The generated PDF file is:
 
 ```sh
-Aditya_SWE_Resume_2YOE.pdf
+Hari_Om_SWE_Resume_4YOE.pdf
 ```
 
 ## Verifying the Output
@@ -205,7 +205,7 @@ Aditya_SWE_Resume_2YOE.pdf
 Check embedded attachments:
 
 ```sh
-pdfdetach -list Aditya_SWE_Resume_2YOE.pdf
+pdfdetach -list Hari_Om_SWE_Resume_4YOE.pdf
 ```
 
 Expected files:
@@ -216,7 +216,7 @@ Expected files:
 Inspect XMP metadata:
 
 ```sh
-exiftool -xmp:all Aditya_SWE_Resume_2YOE.pdf
+exiftool -xmp:all Hari_Om_SWE_Resume_4YOE.pdf
 ```
 
 ## Troubleshooting
