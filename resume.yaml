@@ -1,258 +1,244 @@
-achievements:
-  - Solved over **600 coding questions** on platforms like [LeetCode](https://leetcode.com/u/adysleetcode/)
-    and [GeeksforGeeks](https://www.geeksforgeeks.org/user/adysgfg/).
-  - "[AWS Certified Solutions Architect](https://www.coursera.org/account/accomplishments/professional-cert/3V2Q2RD4X7NG)
-    - Amazon Web Services, 2024"
-  - "[Google Associate Cloud Engineer Certification](https://drive.google.com/file/d/1AAtIxFsjt6rqrTe52p9mTzh7wxzh2sQR/view)
-    - Google Cloud, 2023"
+achievements: []
 basics:
-  email: work.adityajindal@gmail.com
-  label: Software Engineer
+  email: madhavj211@gmail.com
+  label: Senior Software Developer
   location:
-    city: Mumbai
+    city: Bangalore
     country_code: IN
     country_name: India
-    display: Mumbai, India
-    pdf_display: Mumbai - Maharashtra - India
-    region: Maharashtra
-  name: Aditya Jindal
+    display: Bangalore, India
+    pdf_display: Bangalore - Karnataka - India
+    region: Karnataka
+  name: Hari Om
   phone:
-    display: "+917082347965"
-    url: tel://(+917082347965)
+    display: "+919467512615"
+    url: tel://(+919467512615)
   profiles:
-    - label: Portfolio
-      network: Portfolio
-      url: https://adysfolio.vercel.app/
-      username: adysfolio
-    - label: LinkedIn
-      network: LinkedIn
-      url: https://www.linkedin.com/in/adityaonin
-      username: adityaonin
     - label: GitHub
       network: GitHub
-      url: https://github.com/adityaongit
-      username: adityaongit
+      url: https://github.com/madhav008
+      username: madhav008
+    - label: LinkedIn
+      network: LinkedIn
+      url: https://linkedin.com/in/madhav008
+      username: madhav008
     - label: LeetCode
       network: LeetCode
-      url: https://leetcode.com/adysleetcode
-      username: adysleetcode
+      url: https://leetcode.com/madhavj211
+      username: madhavj211
   summary:
-    Software Engineer with experience across AI products, backend systems,
-    developer tooling, and full-stack web applications.
-  website: https://adysfolio.vercel.app/
+    Software Developer with experience across backend systems, video delivery
+    pipelines, DRM, and developer tooling in Go and Node.js.
+  website: https://github.com/madhav008
 education:
-  - area: Computer Science and Engineering
-    display: "CGPA: 8.52 | 2020 - 2024"
-    end_date: "2024"
-    institution: Chandigarh University
-    score: 8.52 CGPA
-    short_study_type: BE
-    start_date: "2020"
+  - area: Computer Science & Engineering
+    display: "CGPA: 9.80 | 2019 - 2023"
+    end_date: "2023"
+    institution: Chitkara University
+    score: 9.80 CGPA
+    short_study_type: B.Eng
+    start_date: "2019"
     study_type: Bachelor of Engineering
     url: null
 experience:
   - alternate_names:
-      - SWE
+      - Senior SWE
       - Backend Engineer
-      - Full Stack Engineer
+      - Go Developer
     bullets:
-      - Shipped an **AI copilot Chrome extension** for Salesforce that reduces manual
-        CRM data entry by auto-linking activities to deals, extracting field values from
-        transcripts, and suggesting pipeline stage transitions.
-      - Integrated **4 external platforms** (Gmail, Zoom, Fireflies.ai, Google Calendar)
-        into a unified context layer, routing data across **multiple LLM providers** for
-        structured field extraction and conversational deal analysis.
-      - Built backend for **AI-driven CX system** with multiple LLM agents (RAG, diagnosis,
-        evaluation, query handling), now resolving 60% of L2 tickets automatically.
-      - Implemented an LLM-as-a-judge evaluation layer using **DeepEval's G-Eval** framework
-        to measure and improve AI response quality and confidence calibration.
-      - Optimized prompt-response cycles using a **LangChain-based caching system**, cutting
-        redundant API calls and improving system efficiency for frequently updated pages.
-      - Contributed to an **AI-powered web crawler**, integrating GPT, Gemini, Claude,
-        and **Qdrant for RAG + Vector search**, improving structured data extraction from
-        complex websites.
-    company: Edra Labs -- BrowserStack
+      - Designed and implemented **Enforced Provisioners** in **Packer**, improving build
+        validation and infrastructure image consistency.
+      - Developed **Native SBOM generation** support, enabling automated software inventory
+        reporting and strengthening software supply chain security.
+      - Maintained and enhanced **packer-plugin-amazon**, resolving issues, reviewing
+        contributions, and ensuring compatibility with evolving AWS services and APIs.
+      - Optimized memory-intensive build workflows through profiling and performance
+        analysis, improving resource utilization and build efficiency.
+      - Enhanced provisioning, artifact generation, and validation workflows to improve
+        build reliability and platform stability.
+      - Modernized **Vagrant** by migrating legacy Ruby on Rails components, resolving
+        dependency compatibility issues, and reducing technical debt.
+    company: HashiCorp
     end_date: null
     end_display: Present
     location:
-      city: Mumbai
+      city: Bangalore
       country: India
-      display: Mumbai, India
+      display: Bangalore, India
+      region: Karnataka
+    position: Senior Software Developer
+    start_date: 2025-12
+    start_display: Dec 2025
+    url: https://www.hashicorp.com/
+  - alternate_names:
+      - SWE
+      - Backend Engineer
+      - Go Developer
+    bullets:
+      - Leveraged **Redis** to cache DRM license responses for 1 minute, decreasing server
+        request volume and lowering CPU utilization by **~10%**.
+      - Replaced **Apache2** with a server built using **Golang**, enabling lightweight,
+        concurrent request handling; eliminated request queuing under high load and reduced
+        CPU usage from **60% to 40%**.
+      - Designed and integrated **DRM licensing** logic in **Golang** to securely issue and
+        manage user playback licenses, ensuring content protection and seamless license
+        validation under high traffic.
+      - Engineered robust video processing and delivery pipelines by integrating **AWS
+        Elemental** (Encoder) and **FFmpeg**, improving stream quality and encoding
+        efficiency.
+    company: Xperi Inc.
+    end_date: 2025-12
+    end_display: Dec 2025
+    location:
+      city: Pune
+      country: India
+      display: Pune, India
       region: Maharashtra
-    position: Software Engineer
-    start_date: 2024-08
-    start_display: Aug 2024
+    position: Software Developer
+    start_date: 2024-02
+    start_display: Feb 2024
+    url: null
+  - alternate_names:
+      - Associate SWE
+      - Backend Engineer
+      - Node.js Developer
+    bullets:
+      - Developed a **subscription management tool** for **3,000+ channels**, with Node.js
+        APIs for integration and real-time processing, and configuration tools reducing
+        setup time by **25%**.
+      - Decomposed a **monolithic architecture** by introducing two **microservices** to
+        handle user recording requests, improving scalability and service isolation.
+      - Integrated **ActiveMQ** as a message broker to decouple request handling from file
+        processing, enabling asynchronous communication between services.
+      - Developed a producer microservice to receive recording metadata and a consumer
+        microservice to process messages and store the associated files in **AWS S3**.
+    company: Xperi Inc.
+    end_date: 2024-01
+    end_display: Jan 2024
+    location:
+      city: Pune
+      country: India
+      display: Pune, India
+      region: Maharashtra
+    position: Associate Software Developer
+    start_date: 2023-01
+    start_display: Jan 2023
     url: null
   - alternate_names:
       - SWE Intern
       - Engineering Intern
       - Developer Intern
     bullets:
-      - Developed **Terraformarium**, an internal **Go** tool that automated **infrastructure**
-        setup for **Anthos** and **Composer**.
-      - Delivered up to **$600** savings for every 100 Cases around **Anthos Service Mesh**.
-      - Reduced provisioning time & costs by **37%** with **Terraform** for better recreation
-        of client environments.
-      - Contributed to **TS Toolkit**, enhancing **IAM Role Comparison** and **Foreign
-        Logs Translation** capabilities.
-      - Implemented **serverless** backend with **Cloud Functions**; deployed on **App
-        Engine** with **auto-scaling** and **load balancing**.
-    company: Google
-    end_date: 2023-08
-    end_display: Aug 2023
+      - Optimized video delivery performance by implementing **HLS** for Apple devices and
+        **DASH** for Android devices, ensuring high-quality streaming across platforms.
+      - Developed an asynchronous event pipeline on a **Kafka** cluster, supporting **4,800
+        messages per second** with minimal latency, ensuring real-time data processing.
+      - Built a scalable, high-traffic **ad analytics platform** using Node.js with NestJS,
+        React, and MongoDB, enabling real-time tracking of ad playback, revenue generation,
+        and identifying top-performing TV channels by ad volume.
+      - Gained extensive experience in **Docker** and **DevOps** practices, managing
+        microservices to enhance application scalability and reliability.
+    company: Xperi Inc.
+    end_date: 2022-12
+    end_display: Dec 2022
     location:
-      city: Bengaluru
+      city: Pune
       country: India
-      display: Bengaluru, India
-      region: Karnataka
-    position: Software Engineering Intern
-    start_date: 2023-06
-    start_display: Jun 2023
-    url: https://about.google/
+      display: Pune, India
+      region: Maharashtra
+    position: Software Developer Intern
+    start_date: 2022-02
+    start_display: Feb 2022
+    url: null
 meta:
-  canonical: https://github.com/adityaongit/resume
+  canonical: https://github.com/madhav008/resume
   created_year: 2026
   license_url: https://www.apache.org/licenses/LICENSE-2.0
   version: v1.0.0
 pdf:
   creator: pdflatex + XCharter
   keywords:
-    - Aditya Jindal
-    - Software Engineer
-    - SWE
-    - Full Stack Engineer
+    - Hari Om
+    - Senior Software Developer
+    - Software Developer
     - Backend Engineer
     - Go
-    - TypeScript
-    - JavaScript
-    - Python
-    - Java
-    - Next.js
+    - Golang
     - Node.js
-    - React.js
-    - Express.js
-    - Flask
-    - Celery
-    - Typesense
-    - PostgreSQL
-    - MySQL
-    - Prisma
+    - NestJS
+    - React
+    - MongoDB
+    - Redis
+    - Kafka
+    - ActiveMQ
+    - Microservices
     - Docker
-    - Kubernetes
-    - Terraform
-    - GCP
+    - DevOps
+    - Packer
+    - Vagrant
+    - SBOM
+    - DRM
+    - FFmpeg
     - AWS
-    - SigNoz
-    - PagerDuty
-    - LLMs
-    - RAG
-    - Mumbai
+    - AWS S3
+    - AWS Elemental
+    - HLS
+    - DASH
+    - Concurrency
+    - System Design
+    - Bangalore
+    - Pune
     - India
-    - Google
-    - BrowserStack
-    - Edra Labs
-    - adityaongit
-    - adityaonin
-    - adysleetcode
+    - HashiCorp
+    - Xperi
+    - madhav008
+    - madhavj211
   lang: en-US
-  producer: Aditya Jindal
+  producer: Hari Om
   pubtype: other
-  subject: Software Engineer Resume - Go, TypeScript, AI Products, Backend, Full Stack
-projects:
-  - bullets:
-      - Shipped a **Chrome DevTools extension** that turns Chrome's read-only IndexedDB
-        inspector into a full **database client**.
-      - Lets developers **query, edit, and export** browser-stored data with **MongoDB-style
-        filters** -- live on the **Chrome Web Store**.
-    keywords:
-      - Chrome Extension
-      - IndexedDB
-      - DevTools
-    link_label: Live Link
-    name: IdxBeaver - IndexedDB Client
-    roles:
-      - Creator
-    url: https://indexbeaver.vercel.app
-  - bullets:
-      - Built a real-time video inference engine for live natural-language prompts, achieving
-        **~150 ms CPU inference**.
-      - Implemented a **4-gate pipeline** (motion, scene change, object entry, NLP) using
-        OpenCV, YOLO-nano/YOLOv8n, and ML.
-    keywords:
-      - LLMs
-      - OpenCV
-      - YOLO
-      - Python
-      - ML
-    link_label: GitHub Link
-    name: Soteira - Real Time Video Inference
-    roles:
-      - Creator
-    url: https://github.com/adityaongit/soteira
-  - bullets:
-      - Facilitates **real-time** code synchronization across diverse **programming languages**,
-        enabling seamless team collaboration.
-      - Features an in-built compiler, allowing users to **Compile and Run** code directly
-        within the platform.
-    keywords:
-      - Node.js
-      - WebSockets
-      - React.js
-    link_label: Live Link
-    name: Pair Code - Developer Platform
-    roles:
-      - Creator
-    url: https://paircode-dev.vercel.app/
-  - bullets:
-      - Built an open-source **electricity bill splitting** app with submeter-based cost
-        distribution and UPI payment integration.
-      - Reached **129 countries** with **9K+ impressions** at **5.5% CTR** -- ~3x industry
-        average -- with zero paid acquisition.
-    keywords:
-      - Next.js
-      - Better Auth
-      - Umami
-    link_label: Live Link
-    name: SplitWatt - Electricity Bill Splitter
-    roles:
-      - Creator
-    url: https://splitwatt.vercel.app/
+  subject: Software Developer Resume - Go, Node.js, Backend, Microservices, Video Delivery
+projects: []
 schema:
   additional_knows_about:
-    - LLMs
-    - RAG
-  person_id: https://github.com/adityaongit
-  resume_id: https://github.com/adityaongit/resume
+    - Microservices
+    - System Design
+  person_id: https://github.com/madhav008
+  resume_id: https://github.com/madhav008/resume
 skills:
   - keywords:
-      - TypeScript
       - Go
       - JavaScript
-      - Python
-      - Java
+      - TypeScript
     name: Languages
   - keywords:
-      - Next.js
       - Node.js
-      - React.js
-      - Express.js
-      - Flask
-      - Celery
-      - Typesense
-    name: Technologies
+      - NestJS
+      - React
+    name: Frameworks
   - keywords:
-      - MySQL
-      - PostgreSQL
-      - Prisma
-      - Metabase
-      - AdminJS
-    name: Databases
+      - Microservices
+      - System Design
+      - Concurrency
+      - Asynchronous Processing
+      - DRM
+    name: Architecture & Concepts
+  - keywords:
+      - Kafka
+      - ActiveMQ
+      - Redis
+      - MongoDB
+      - FFmpeg
+      - AWS Elemental
+      - HLS
+      - DASH
+    name: Streaming & Messaging
   - keywords:
       - Docker
-      - Kubernetes
-      - Terraform
-      - GCP
+      - Packer
+      - Vagrant
       - AWS
-      - SigNoz
-      - PagerDuty
+      - AWS S3
+      - SBOM
+      - Memory Profiling
+      - Open Source
     name: Infrastructure & DevOps
