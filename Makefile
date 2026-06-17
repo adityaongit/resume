@@ -18,7 +18,7 @@ generate:
 	python3 scripts/generate_resume.py
 
 compile: generate
-	docker run --rm -v "$(PWD):/data" latex-builder -jobname="Hari_Om_SWE_Resume_4YOE" main.tex
+	docker run --rm -v "$(PWD):/data" latex-builder -jobname="Aditya_SWE_Resume_2YOE" main.tex
 
 clean:
 	rm -f *.pdf *.aux *.log *.out
