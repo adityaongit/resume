@@ -15,7 +15,7 @@ docker:
 	docker build -t latex-builder .docker
 
 generate:
-	python3 scripts/generate_resume.py
+	uv run python scripts/generate_resume.py
 
 compile: generate
 	docker run --rm -v "$(PWD):/data" latex-builder -jobname="Aditya_SWE_Resume_2YOE" main.tex

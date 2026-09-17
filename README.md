@@ -12,14 +12,12 @@ For the resume build pipeline:
 
 - [Docker](https://docs.docker.com/)
 - [yq](https://github.com/mikefarah/yq)
+- [uv](https://docs.astral.sh/uv/) -- `make generate` runs the generator through `uv run`,
+  which pins Python 3.10+ regardless of the system `python3`
 
 For local git-based push from the editor:
 
 - [Git](https://git-scm.com/)
-
-For running the editor without Docker Compose:
-
-- [uv](https://docs.astral.sh/uv/)
 
 ## Contents
 

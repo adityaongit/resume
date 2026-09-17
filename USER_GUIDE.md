@@ -35,8 +35,8 @@ Install these tools first:
 
 - [Docker](https://docs.docker.com/)
 - [yq](https://github.com/mikefarah/yq)
-- `python3`
-- [uv](https://docs.astral.sh/uv/)
+- [uv](https://docs.astral.sh/uv/) -- supplies the Python 3.10+ the generator needs; a
+  system `python3` older than 3.10 fails with a `TypeError` on the `str | None` annotations
 - optionally: [Git](https://git-scm.com/) for local git-based push
 - optionally: `exiftool`
 - optionally: `pdfdetach`

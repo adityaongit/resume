@@ -53,27 +53,55 @@ education:
 experience:
   - alternate_names:
       - SWE
+      - AI Engineer
+      - Backend Engineer
+    bullets:
+      - Built the backend for an **AI support agent** running multi-agent **RAG** over
+        the support inbox, calling live wallet, orders and market tools to answer account-specific
+        questions, now resolving **60% of L2 tickets** automatically.
+      - Built **peakeval**, a self-hosted **LLM evaluation** product that mines test cases
+        from production traffic and replays them against the live agent, scoring with
+        deterministic assertions and **DeepEval** RAG, agentic, safety and **G-Eval**
+        judges.
+      - Engineered the agent's **tool-calling layer** with schema validation, effect guards
+        and two-way catalog drift detection, keeping LLM tool definitions in sync with
+        the live API surface.
+      - Built **delta-exchange-mcp**, the official **MCP server** for Delta Exchange India,
+        exposing market, account and trading tools to Claude, Cursor and other agent clients,
+        shipped on **PyPI** with read-only defaults and live trading behind an explicit opt-in.
+      - Shipped **API Console**, a streaming **AI chatbot** on the **Vercel AI SDK** and
+        **OpenRouter**, grounded in Delta Exchange's OpenAPI spec and docs through **Pinecone
+        vector search**, with an admin layer for prompt versioning and chat review.
+      - Built **PMBot**, a source-grounded **RAG workspace** for QA, product, leadership
+        and data teams, with team RBAC, audit logs and permission-scoped exports.
+    company: Delta Exchange
+    end_date: null
+    end_display: Present
+    location:
+      city: Bengaluru
+      country: India
+      display: Bengaluru, India
+      region: Karnataka
+    position: Software Engineer
+    start_date: 2026-05
+    start_display: May 2026
+    url: null
+  - alternate_names:
+      - SWE
       - Backend Engineer
       - Full Stack Engineer
     bullets:
       - Shipped an **AI copilot Chrome extension** for Salesforce that reduces manual
         CRM data entry by auto-linking activities to deals, extracting field values from
         transcripts, and suggesting pipeline stage transitions.
-      - Integrated **4 external platforms** (Gmail, Zoom, Fireflies.ai, Google Calendar)
-        into a unified context layer, routing data across **multiple LLM providers** for
-        structured field extraction and conversational deal analysis.
-      - Built backend for **AI-driven CX system** with multiple LLM agents (RAG, diagnosis,
-        evaluation, query handling), now resolving 60% of L2 tickets automatically.
-      - Implemented an LLM-as-a-judge evaluation layer using **DeepEval's G-Eval** framework
-        to measure and improve AI response quality and confidence calibration.
       - Optimized prompt-response cycles using a **LangChain-based caching system**, cutting
         redundant API calls and improving system efficiency for frequently updated pages.
       - Contributed to an **AI-powered web crawler**, integrating GPT, Gemini, Claude,
         and **Qdrant for RAG + Vector search**, improving structured data extraction from
         complex websites.
     company: Edra Labs -- BrowserStack
-    end_date: null
-    end_display: Present
+    end_date: 2026-05
+    end_display: May 2026
     location:
       city: Mumbai
       country: India
@@ -90,13 +118,8 @@ experience:
     bullets:
       - Developed **Terraformarium**, an internal **Go** tool that automated **infrastructure**
         setup for **Anthos** and **Composer**.
-      - Delivered up to **$600** savings for every 100 Cases around **Anthos Service Mesh**.
-      - Reduced provisioning time & costs by **37%** with **Terraform** for better recreation
-        of client environments.
-      - Contributed to **TS Toolkit**, enhancing **IAM Role Comparison** and **Foreign
-        Logs Translation** capabilities.
-      - Implemented **serverless** backend with **Cloud Functions**; deployed on **App
-        Engine** with **auto-scaling** and **load balancing**.
+      - Reduced provisioning time & costs by **37%** with **Terraform**, delivering up to
+        **$600** savings for every 100 Cases around **Anthos Service Mesh**.
     company: Google
     end_date: 2023-08
     end_display: Aug 2023
@@ -134,6 +157,9 @@ pdf:
     - Flask
     - Celery
     - Typesense
+    - LangChain
+    - DeepEval
+    - Pinecone
     - PostgreSQL
     - MySQL
     - Prisma
@@ -146,8 +172,21 @@ pdf:
     - PagerDuty
     - LLMs
     - RAG
+    - MCP
+    - Model Context Protocol
+    - Tool Calling
+    - Function Calling
+    - LLM Evals
+    - LLM-as-a-judge
+    - Vector Search
+    - Embeddings
+    - Vercel AI SDK
+    - OpenRouter
+    - Qdrant
+    - AI Engineer
     - Mumbai
     - India
+    - Delta Exchange
     - Google
     - BrowserStack
     - Edra Labs
@@ -161,9 +200,8 @@ pdf:
 projects:
   - bullets:
       - Shipped a **Chrome DevTools extension** that turns Chrome's read-only IndexedDB
-        inspector into a full **database client**.
-      - Lets developers **query, edit, and export** browser-stored data with **MongoDB-style
-        filters** -- live on the **Chrome Web Store**.
+        inspector into a full **database client**, letting developers **query, edit, and
+        export** browser-stored data -- live on the **Chrome Web Store**.
     keywords:
       - Chrome Extension
       - IndexedDB
@@ -174,40 +212,9 @@ projects:
       - Creator
     url: https://indexbeaver.vercel.app
   - bullets:
-      - Built a real-time video inference engine for live natural-language prompts, achieving
-        **~150 ms CPU inference**.
-      - Implemented a **4-gate pipeline** (motion, scene change, object entry, NLP) using
-        OpenCV, YOLO-nano/YOLOv8n, and ML.
-    keywords:
-      - LLMs
-      - OpenCV
-      - YOLO
-      - Python
-      - ML
-    link_label: GitHub Link
-    name: Soteira - Real Time Video Inference
-    roles:
-      - Creator
-    url: https://github.com/adityaongit/soteira
-  - bullets:
-      - Facilitates **real-time** code synchronization across diverse **programming languages**,
-        enabling seamless team collaboration.
-      - Features an in-built compiler, allowing users to **Compile and Run** code directly
-        within the platform.
-    keywords:
-      - Node.js
-      - WebSockets
-      - React.js
-    link_label: Live Link
-    name: Pair Code - Developer Platform
-    roles:
-      - Creator
-    url: https://paircode-dev.vercel.app/
-  - bullets:
       - Built an open-source **electricity bill splitting** app with submeter-based cost
-        distribution and UPI payment integration.
-      - Reached **129 countries** with **9K+ impressions** at **5.5% CTR** -- ~3x industry
-        average -- with zero paid acquisition.
+        distribution and UPI payments, reaching **170 countries** and **37K+ impressions**
+        at **3.5% CTR** with zero paid acquisition.
     keywords:
       - Next.js
       - Better Auth
@@ -241,8 +248,21 @@ skills:
       - Typesense
     name: Technologies
   - keywords:
-      - MySQL
+      - LLMs
+      - RAG
+      - MCP
+      - Tool Calling
+      - Evals
+      - LangChain
+      - DeepEval
+      - Vercel AI SDK
+      - OpenRouter
+    name: AI Engineering
+  - keywords:
       - PostgreSQL
+      - MySQL
+      - Pinecone
+      - Qdrant
       - Prisma
       - Metabase
       - AdminJS

@@ -31,10 +31,17 @@
   },
   "work": [
     {
+      "name": "Delta Exchange",
+      "position": "Software Engineer",
+      "startDate": "2026-05",
+      "location": "Bengaluru, Karnataka, India"
+    },
+    {
       "name": "Edra Labs -- BrowserStack",
       "position": "Software Engineer",
       "startDate": "2024-08",
-      "location": "Mumbai, Maharashtra, India"
+      "location": "Mumbai, Maharashtra, India",
+      "endDate": "2026-05"
     },
     {
       "name": "Google",
@@ -79,10 +86,26 @@
       ]
     },
     {
+      "name": "AI Engineering",
+      "keywords": [
+        "LLMs",
+        "RAG",
+        "MCP",
+        "Tool Calling",
+        "Evals",
+        "LangChain",
+        "DeepEval",
+        "Vercel AI SDK",
+        "OpenRouter"
+      ]
+    },
+    {
       "name": "Databases",
       "keywords": [
-        "MySQL",
         "PostgreSQL",
+        "MySQL",
+        "Pinecone",
+        "Qdrant",
         "Prisma",
         "Metabase",
         "AdminJS"
@@ -115,32 +138,6 @@
       ]
     },
     {
-      "name": "Soteira - Real Time Video Inference",
-      "url": "https://github.com/adityaongit/soteira",
-      "roles": [
-        "Creator"
-      ],
-      "keywords": [
-        "LLMs",
-        "OpenCV",
-        "YOLO",
-        "Python",
-        "ML"
-      ]
-    },
-    {
-      "name": "Pair Code - Developer Platform",
-      "url": "https://paircode-dev.vercel.app/",
-      "roles": [
-        "Creator"
-      ],
-      "keywords": [
-        "Node.js",
-        "WebSockets",
-        "React.js"
-      ]
-    },
-    {
       "name": "SplitWatt - Electricity Bill Splitter",
       "url": "https://splitwatt.vercel.app/",
       "roles": [
@@ -156,6 +153,6 @@
   "meta": {
     "canonical": "https://github.com/adityaongit/resume",
     "version": "v1.0.0",
-    "lastModified": "2026-05-01"
+    "lastModified": "2026-09-17"
   }
 }

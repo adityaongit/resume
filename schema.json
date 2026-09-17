@@ -37,8 +37,19 @@
         "Flask",
         "Celery",
         "Typesense",
-        "MySQL",
+        "LLMs",
+        "RAG",
+        "MCP",
+        "Tool Calling",
+        "Evals",
+        "LangChain",
+        "DeepEval",
+        "Vercel AI SDK",
+        "OpenRouter",
         "PostgreSQL",
+        "MySQL",
+        "Pinecone",
+        "Qdrant",
         "Prisma",
         "Metabase",
         "AdminJS",
@@ -48,11 +59,27 @@
         "GCP",
         "AWS",
         "SigNoz",
-        "PagerDuty",
-        "LLMs",
-        "RAG"
+        "PagerDuty"
       ],
       "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Software Engineer",
+          "alternateName": [
+            "SWE",
+            "AI Engineer",
+            "Backend Engineer"
+          ],
+          "occupationLocation": {
+            "@type": "City",
+            "name": "Bengaluru"
+          },
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Delta Exchange"
+          },
+          "startDate": "2026-05"
+        },
         {
           "@type": "Occupation",
           "name": "Software Engineer",
@@ -69,7 +96,8 @@
             "@type": "Organization",
             "name": "Edra Labs -- BrowserStack"
           },
-          "startDate": "2024-08"
+          "startDate": "2024-08",
+          "endDate": "2026-05"
         },
         {
           "@type": "Occupation",
@@ -101,28 +129,6 @@
             "Chrome Extension",
             "IndexedDB",
             "DevTools"
-          ]
-        },
-        {
-          "@type": "SoftwareSourceCode",
-          "name": "Soteira - Real Time Video Inference",
-          "url": "https://github.com/adityaongit/soteira",
-          "programmingLanguage": [
-            "LLMs",
-            "OpenCV",
-            "YOLO",
-            "Python",
-            "ML"
-          ]
-        },
-        {
-          "@type": "SoftwareSourceCode",
-          "name": "Pair Code - Developer Platform",
-          "url": "https://paircode-dev.vercel.app/",
-          "programmingLanguage": [
-            "Node.js",
-            "WebSockets",
-            "React.js"
           ]
         },
         {
@@ -170,11 +176,16 @@
             {
               "@type": "ListItem",
               "position": 1,
-              "name": "Software Engineer at Edra Labs -- BrowserStack"
+              "name": "Software Engineer at Delta Exchange"
             },
             {
               "@type": "ListItem",
               "position": 2,
+              "name": "Software Engineer at Edra Labs -- BrowserStack"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
               "name": "Software Engineering Intern at Google"
             }
           ]
@@ -219,11 +230,16 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Databases: MySQL, PostgreSQL, Prisma, Metabase, AdminJS"
+              "name": "AI Engineering: LLMs, RAG, MCP, Tool Calling, Evals, LangChain, DeepEval, Vercel AI SDK, OpenRouter"
             },
             {
               "@type": "ListItem",
               "position": 4,
+              "name": "Databases: PostgreSQL, MySQL, Pinecone, Qdrant, Prisma, Metabase, AdminJS"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
               "name": "Infrastructure & DevOps: Docker, Kubernetes, Terraform, GCP, AWS, SigNoz, PagerDuty"
             }
           ]
@@ -246,16 +262,6 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Soteira - Real Time Video Inference"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Pair Code - Developer Platform"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
               "name": "SplitWatt - Electricity Bill Splitter"
             }
           ]
