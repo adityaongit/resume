@@ -7,8 +7,8 @@
     "url": "https://adysfolio.vercel.app/",
     "summary": "Software Engineer with experience across AI products, backend systems, developer tooling, and full-stack web applications.",
     "location": {
-      "city": "Mumbai",
-      "region": "Maharashtra",
+      "city": "Bengaluru",
+      "region": "Karnataka",
       "countryCode": "IN"
     },
     "profiles": [
@@ -66,10 +66,10 @@
     {
       "name": "Languages",
       "keywords": [
+        "Python",
         "TypeScript",
         "Go",
         "JavaScript",
-        "Python",
         "Java"
       ]
     },

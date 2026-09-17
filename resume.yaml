@@ -9,12 +9,12 @@ basics:
   email: work.adityajindal@gmail.com
   label: Software Engineer
   location:
-    city: Mumbai
+    city: Bengaluru
     country_code: IN
     country_name: India
-    display: Mumbai, India
-    pdf_display: Mumbai - Maharashtra - India
-    region: Maharashtra
+    display: Bengaluru, India
+    pdf_display: Bengaluru - Karnataka - India
+    region: Karnataka
   name: Aditya Jindal
   phone:
     display: "+917082347965"
@@ -66,9 +66,9 @@ experience:
       - Engineered the agent's **tool-calling layer** with schema validation, effect guards
         and two-way catalog drift detection, keeping LLM tool definitions in sync with
         the live API surface.
-      - Built **delta-exchange-mcp**, the official **MCP server** for Delta Exchange India,
-        exposing market, account and trading tools to Claude, Cursor and other agent clients,
-        shipped on **PyPI** with read-only defaults and live trading behind an explicit opt-in.
+      - Built [delta-exchange-mcp](https://mcp.delta.exchange/docs/quickstart), the official
+        **MCP server** for Delta Exchange India, exposing market, account and trading tools
+        to Claude, Cursor and other agent clients.
       - Shipped **API Console**, a streaming **AI chatbot** on the **Vercel AI SDK** and
         **OpenRouter**, grounded in Delta Exchange's OpenAPI spec and docs through **Pinecone
         vector search**, with an admin layer for prompt versioning and chat review.
@@ -184,8 +184,8 @@ pdf:
     - OpenRouter
     - Qdrant
     - AI Engineer
-    - Mumbai
     - India
+    - Bengaluru
     - Delta Exchange
     - Google
     - BrowserStack
@@ -232,10 +232,10 @@ schema:
   resume_id: https://github.com/adityaongit/resume
 skills:
   - keywords:
+      - Python
       - TypeScript
       - Go
       - JavaScript
-      - Python
       - Java
     name: Languages
   - keywords:

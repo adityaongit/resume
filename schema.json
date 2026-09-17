@@ -16,8 +16,8 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
         "addressCountry": "IN"
       },
       "alumniOf": {
@@ -25,10 +25,10 @@
         "name": "Chandigarh University"
       },
       "knowsAbout": [
+        "Python",
         "TypeScript",
         "Go",
         "JavaScript",
-        "Python",
         "Java",
         "Next.js",
         "Node.js",
@@ -220,7 +220,7 @@
             {
               "@type": "ListItem",
               "position": 1,
-              "name": "Languages: TypeScript, Go, JavaScript, Python, Java"
+              "name": "Languages: Python, TypeScript, Go, JavaScript, Java"
             },
             {
               "@type": "ListItem",
