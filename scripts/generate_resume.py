@@ -507,7 +507,8 @@ def main() -> int:
     write_file(SECTIONS_DIR / "skills.tex", render_skills(data))
     write_file(SECTIONS_DIR / "projects.tex", render_projects(data))
     write_file(SECTIONS_DIR / "education.tex", render_education(data))
-    write_file(SECTIONS_DIR / "achievements.tex", render_achievements(data))
+    if data.get("achievements"):
+        write_file(SECTIONS_DIR / "achievements.tex", render_achievements(data))
     write_file(GENERATED_DIR / "metadata.tex", render_metadata(data))
     write_file(ROOT / "resume.json", json.dumps(build_resume_json(data, last_modified), indent=2))
     write_file(ROOT / "schema.json", json.dumps(build_schema_json(data, last_modified), indent=2))
